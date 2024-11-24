@@ -1,0 +1,19 @@
+﻿# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@Web_HostAddress = https://localhost:5001
+
+#PUT TodoItems UpdateItemDetails
+PUT {{Web_HostAddress}}/api/Candidate/iamrameshshah@gmail.com
+Content-Type: application/json
+
+// UpdateCandidateCommand
+{
+  "FirstName": 1,
+  "LastName": 1,
+  "PhoneNumber": 1234566,
+  "Email": "This is a good idea!",
+  "LinkedIn": "Test",
+  "Github": "Test",
+  "Remarks": "Test"
+}
+
+###
